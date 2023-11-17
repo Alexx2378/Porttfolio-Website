@@ -9,7 +9,7 @@
 }
     .navbar{
      display: flex;
-     background-image: linear-gradient(#ab51a3, #456afc);
+     background-image: linear-gradient (#ab51a3, #456afc);
      position:sticky;
      height: 80px;
      width: 100%;
@@ -37,7 +37,7 @@
 }
     .navbar a:hover{
        background: linear-gradient(#00b0ba, #993dfb);
-       background-size: 24px;
+       background-size: 20px;
        padding-left: 8px;
        padding-right: 8px;
        border: none;
