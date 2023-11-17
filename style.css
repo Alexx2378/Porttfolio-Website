@@ -8,23 +8,32 @@
     scroll-behavior: smooth;
 }
     .navbar{
-        display: flex;
-        justify-content: space-between;
-        justify-items: right;
-        text-align: right;
-        background-image: linear-gradient(#ab51a3, #456afc);
-        position:sticky;
-        padding: 7px 8%;;
-        font-family: 'kanit';
-        font-color: #88faff;
+     display: flex;
+     background-image: linear-gradient(#ab51a3, #456afc);
+     position:sticky;
+     height: 80px;
+     width: 100%;
+     font-family: 'Chakra Petch';
+     font-color: #88faff;
+     font-size: 16px;
+     font-weight: 700;
+      margin-bottom: 0;
+      top: 0;
+      left: 0;
+      cursor: pointer;
+       z-index: 100;
+}
+    .navbar ul li{
+        display: inline-block;
+        text-align: center;
+        list-style: none;
+        font-family: 'Charka Petch';
+        color: white;
         font-size: 16px;
         font-weight: 700;
-        margin-bottom: 0;
-        top: 0;
-        left: 0;
-        cursor: pointer;
-        z-index: 100;
-
+        position: sticky;
+        margin: 10px 20px;
+        position: sticky;
 }
     .navbar a:hover{
        background: linear-gradient(#00b0ba, #993dfb);
